@@ -1,0 +1,22 @@
+[
+    {
+        "sub_category_id": "1",
+        "sub_category_name": "Java Devloper"
+    },
+    {
+        "sub_category_id": "2",
+        "sub_category_name": "PHP Devloper"
+    },
+    {
+        "sub_category_id": "3",
+        "sub_category_name": "Javascript Devloper"
+    },
+    {
+        "sub_category_id": "4",
+        "sub_category_name": "UI/UX Devloper"
+    },
+    {
+        "sub_category_id": "5",
+        "sub_category_name": "SMM Marketolog"
+    }
+]

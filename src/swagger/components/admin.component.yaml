@@ -1,0 +1,20 @@
+components:
+  schemas:
+    Login:
+      type: object
+      properties:
+        username:
+          type: string
+          example: salim
+        password: 
+          type: string
+          example: "123456789"
+    LoginResponse:
+      type: object
+      properties:
+        status:
+          type: integer
+        message:
+          type: string
+        token: 
+          type: string

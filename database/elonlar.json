@@ -1,0 +1,28 @@
+[
+    {
+        "elonId": 1,
+        "full_name": "Abbos Janizakov",
+        "professiya": "Produgt desiger",
+        "phone": 998941235678,
+        "elon_title": "Description",
+        "image": "Abbos",
+        "elon_body": "Lorem ipsum dolor ...",
+        "date": "30/01/2022",
+        "hourId": "13",
+        "category_id": "1",
+        "sub_category_id": "1"
+    },
+    {
+        "elonId": 2,
+        "full_name": "Ali Valiyev",
+        "professiya": "produkt desinger",
+        "phone": "998945612301",
+        "elon_title": "nmadur",
+        "image": "1672642664452images.jpg",
+        "elon_body": "lorom ipsum dolor nmadur",
+        "date": "31/12/2023",
+        "hourId": "14",
+        "category_id": "2",
+        "sub_category_id": "1"
+    }
+]

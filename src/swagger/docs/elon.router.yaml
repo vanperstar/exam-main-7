@@ -1,0 +1,59 @@
+/elon:
+  get:
+    tags:
+      - elons
+    responses:
+      '200':
+        description: all elons
+        content: 
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/getElons'
+
+  post:
+    tags:
+      - elons
+    requestBody:
+      description: post elon
+      content:
+        multipart/form-data:
+        schema:
+          type: object
+          properties:
+            full_name:
+              type: string
+              example: Hakim Soliyev
+            professiya:
+              type: string
+              example: SMM menager
+            phone:
+              type: string
+              example: "998945613214"
+            elon_title:
+              type: string
+              example: karochi nmadurde
+            image:
+              type: string
+              format: binary
+            elon_body:
+              type: string
+              example: adgushijdnf shghfjkgs daushajkjdo
+            date:
+              type: string
+              example: "23/12/2022"
+            hourId:
+              type: string
+              example: "14"
+            category_id:
+              type: string
+              example: "2"
+            sub_category_id:
+              type: string
+              example: "1"
+    responses:
+      '200':
+        description: all products
+        content: 
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/postElons'
